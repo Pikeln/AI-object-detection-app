@@ -1,0 +1,8 @@
+streamlit
+ultralytics
+sahi
+easyocr
+pymupdf
+pillow
+numpy
+opencv-python-headless

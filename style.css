@@ -1,0 +1,38 @@
+/* style.css */
+
+/* 1. Öka grundstorleken på all text */
+html, body, p, li, .stMarkdown {
+    font-size: 18px !important;
+}
+
+/* 2. Gör checkboxar (Egenkontrollen) MYCKET större och tydligare */
+div[data-testid="stCheckbox"] label span p {
+    font-size: 22px !important;
+    font-weight: 500 !important;
+}
+
+/* 3. Gör expander-rubrikerna (t.ex "Uttag") större */
+.streamlit-expanderHeader p {
+    font-size: 24px !important;
+    font-weight: bold !important;
+    color: #2e86c1 !important; 
+}
+
+/* 4. Gör JSON/Kod-text lite större också */
+code, .stCodeBlock {
+    font-size: 16px !important;
+}
+
+/* 5. Justera flikarnas textstorlek */
+button[data-baseweb="tab"] div p {
+    font-size: 20px !important;
+    font-weight: bold !important;
+}
+
+/* 6. Fixa "dimmig" text i info-rutor (st.info) */
+div[data-testid="stAlert"] p {
+    font-size: 20px !important;
+    font-weight: 600 !important;
+    color: #003366 !important; /* Mörkare marinblå för skärpa */
+    opacity: 1 !important;
+}
