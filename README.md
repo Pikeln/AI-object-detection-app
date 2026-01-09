@@ -1,6 +1,5 @@
-# Schematic Analysis App ⚡
-
-## 🚀 Quick Start
+# Schematic Analysis App
+## Quick Start
 
 - **IMPORTANT: Install CUDA-enabled PyTorch first to ensure GPU support:**
 
@@ -38,7 +37,7 @@ It integrates Machine Learning models to detect electrical symbols and extract t
 3.  View results directly in the browser with bounding boxes.
 4.  Download the results as structured JSON data or a marked PDF.
 
-## 🧠 Model Configuration
+## Model Configuration
 The application comes pre-packaged with a default trained model located at `./models/best.pt`. This allows the application to run immediately without additional setup.
 
 ### Using a Custom Model
