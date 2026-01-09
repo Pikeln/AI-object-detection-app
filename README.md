@@ -2,8 +2,6 @@
 
 ## 🚀 Quick Start
 
-## 🚀 Quick Start
-
 - **IMPORTANT: Install CUDA-enabled PyTorch first to ensure GPU support:**
 
 ```bash
@@ -57,4 +55,4 @@ You can switch models in two ways:
     * Update the `MODEL_PATH` variable to point to your local training directory (e.g., `../yolo-repo/runs/detect/train/weights/best.pt`).
 
 ---
-*Created by [Ditt Namn] & [Kollegans Namn] as part of our Degree Project in Computer Engineering.*
+*Created by Björn Andersson & Alaa Abdulrazzaq as part of our Degree Project in Computer Engineering.*
