@@ -5,6 +5,7 @@
 
 ```bash
 pip install torch torchvision torchaudio --index-url [https://download.pytorch.org/whl/cu121](https://download.pytorch.org/whl/cu121)
+```
 
 - Clone the repository: `git clone <repository-url>`
 - Create a virtual environment: `python -m venv venv`
